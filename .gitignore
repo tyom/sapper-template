@@ -4,3 +4,6 @@
 yarn-error.log
 /cypress/screenshots/
 /__sapper__/
+yarn.lock
+package-lock.json
+package.json
