@@ -1,0 +1,21 @@
+{
+  "plugins": ["cypress", "svelte3"],
+  "extends": ["standard", "plugin:cypress/recommended"],
+  "overrides": [
+    {
+      "files": ["**/*.svelte"],
+      "processor": "svelte3/svelte3"
+    }
+  ],
+  "rules": {
+    "comma-dangle": [2, "always-multiline"]
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  }
+}
