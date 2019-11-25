@@ -11,8 +11,6 @@ fi
 ROLLUP=rollup
 WEBPACK=webpack
 
-make clean
-
 ./create-branches.sh $ROLLUP $WEBPACK
 
 # force push rollup and webpack branches and repos

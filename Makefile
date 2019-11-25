@@ -18,3 +18,4 @@ clean:
 	if test -f yarn.lock; then rm yarn.lock; fi
 
 .PHONY: rollup webpack clean
+.SILENT: rollup webpack clean
