@@ -2,9 +2,9 @@
 cd "$(dirname "$0")"
 
 if [ "$CI" ]; then
-	(umask 0077; echo "$SSH_KEY" > ~/ssh_key)
-	git config user.email 'noreply@tyom.dev'
-	git config user.name '[bot]'
+  (umask 0077; echo "$SSH_KEY" > ~/ssh_key)
+  git config user.email 'noreply@tyom.dev'
+  git config user.name '[bot]'
 fi
 
 # branch names
