@@ -1,6 +1,10 @@
 # sapper-template
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+An extended default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+
+This template includes PostCSS support with [Rucksack CSS helpers](https://www.rucksackcss.org)
+and [postcss-import](https://github.com/postcss/postcss-import) plugin. It also includes ESLint configuration
+and uses spaces instead of tabs for indentation.
 
 
 ## Getting started
