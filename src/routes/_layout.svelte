@@ -4,7 +4,9 @@
   export let segment
 </script>
 
-<style>
+<style global>
+  @import '../global.css';
+
   main {
     position: relative;
     max-width: 56em;
